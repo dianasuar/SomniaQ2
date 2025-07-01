@@ -7,14 +7,14 @@ const provider = new ethers.JsonRpcProvider(RPC_URL);
 
 // 2️⃣ Contract addresses
 const contractMap = {
-  snkA:      "0x696ee979e8CC1D5a2CA7778606a3269C00978346",
+  hole:      "0x69e35A5d84710374a33899692EF581CeD2EEa9C4",
   snkScore:  "0x5Cb442D8A3D7A7153BE93202e232919bE3C84C5A",
   dashScore: "0x754F014dFC79eE5b3bd4335637622Ce03f26bBd9",
 };
 
 // 3️⃣ Completion thresholds (in human‐units)
 const completionThresholds = {
-  snkA:      10,    // “10 tokens”
+  hole:      10,    // “10 tokens”
   snkScore: 3500,   // “3,500 tokens”
   dashScore: 3000,  // “3,000 tokens”
 };
