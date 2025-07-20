@@ -13,7 +13,7 @@ const contractMap = {
 
 // 3️⃣ Completion thresholds (in human‐units)
 const completionThresholds = {
-  hole:   90000,
+  hole:   50000,
   slapScr: 1000,
 };
 
