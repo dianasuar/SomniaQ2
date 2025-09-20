@@ -7,7 +7,7 @@ const provider = new ethers.JsonRpcProvider(RPC_URL);
 
 // 2️⃣ Contract addresses
 const contractMap = {
-  hole:      "0xcC54e8129EE25af45F1B489D8fD3960Ce54684eB",
+  hole:      "0x32D146ff24E2AAe2a266A872f86474C9595C0C4F",
 };
 
 // 3️⃣ Completion thresholds (in human‐units)
