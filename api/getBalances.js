@@ -2,7 +2,7 @@ const { ethers } = require("ethers");
 
 // 1️⃣ Make sure “https://” is present:
 const RPC_URL =
-  "https://rpc.ankr.com/somnia_testnet";
+  "https://api.infra.mainnet.somnia.network";
 const provider = new ethers.JsonRpcProvider(RPC_URL);
 
 // 2️⃣ Contract addresses
